@@ -1,0 +1,54 @@
+Countries POST, PUT, DELETE
+
+Country insert example
+http://localhost:8069/insert/country?name=Україна
+
+Country update example
+http://localhost:8069/update/country?name=Омерика&id=1
+
+Country delete example
+http://localhost:8069/delete/country?id=1
+------------------------------------------------------------------------------
+EmployeeTypes POST, PUT, DELETE
+
+EmployeeType insert example
+http://localhost:8069/insert/employeeType?type=Кухар
+
+EmployeeType update example
+http://localhost:8069/update/employeeType?type=Хтось&id=1
+
+EmployeeType delete example
+http://localhost:8069/delete/employeeType?type=Хтось&id=1
+------------------------------------------------------------------------------
+Directors POST, PUT, DELETE
+
+Director insert example
+http://localhost:8069/insert/director?name=Директор1&expirience=10
+
+Director update example
+http://localhost:8069/update/director?name=Директор10&expirience=20&id=1
+
+Director delete example
+http://localhost:8069/delete/director?id=1
+------------------------------------------------------------------------------
+Cafe POST, PUT, DELETE
+
+Cafe insert example
+http://localhost:8069/insert/cafe?address=адреса1&country=1&director=1
+
+Cafe update example
+http://localhost:8069/update/cafe?address=адреса4&country=1&director=1&id=1
+
+Cafe delete example
+http://localhost:8069/delete/cafe?id=1
+------------------------------------------------------------------------------
+Employee POST, PUT, DELETE
+
+Employee insert example
+http://localhost:8069/insert/employeer?name=Працівник1&cafe=1&type=1
+
+Employee update example
+http://localhost:8069/update/employee?name=Працівник2&cafe=1&type=1&id=1
+
+Employee delete example
+http://localhost:8069/delete/employee?id=1
